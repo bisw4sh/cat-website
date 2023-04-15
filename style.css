@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(12, 129, 196);
+    color: white;
+}
+
+navbar button{
+    padding: 5px 0px;
+    height: 30px;
+    border: 2px rgb(12, 129, 196) solid;
+    background-color: white;
+    color: rgb(12, 129, 196);
+}
+
+navbar{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+navbar img{
+    padding: 4px 0px;
+    height: 30px;
+}
+
+navbar span{
+    display: flex;
+}
+
+navbar span ul {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4px;
+    list-style:none;
+    cursor: pointer;
+}
+
+navbar span ul li {
+    
+    list-style:none;
+}
+
+.cats{
+    /* padding: 50px; */
+    background-image: url('img/cats.jpg');
+    height: 80vh;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cats h1, h2, button{
+    padding: 10px;
+}
+
+.second-section{
+    height: 50vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.second-section img{
+    border-radius: 3px;
+}
+
+
+.nested{
+    /* padding: 10px; */
+    width:30rem;
+    padding: 1rem;
+    display: flex;
+    justify-content:space-around;  
+    flex-flow: column nowrap;
+}
+
+.facts{
+    background-color: rgb(223, 220, 220);
+    padding: 5px;
+}
+.nested span{
+    font-size: 20px;
+}
+.facts li{
+    padding: 5px;
+    list-style: none;
+}
+
+.third-section{
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.sweets{
+    display: flex;
+    flex-flow: row nowrap;
+} 
+
+.swt1{
+    height: 60px;
+}
+.sweets img{
+    height: 30px;
+}
+
+
+.fourth-section{
+    /* padding: 20px; */
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth-section div{
+    padding: 20px;
+}
+
+.fourth-section img{
+    height: 60vh;
+}
+
+.fifth{
+    background-image:url('img/fifth-section.jpg');
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
