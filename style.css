@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 button{
@@ -50,6 +51,7 @@ navbar span ul li {
 
 .cats{
     /* padding: 50px; */
+    margin: 2px 0;
     background-image: url('img/cats.jpg');
     height: 80vh;
     background-size: cover; 
@@ -109,7 +111,12 @@ navbar span ul li {
 } 
 
 .swt1{
-    height: 60px;
+    margin: 4px;
+    padding: 20px;
+    background-color: rgb(195, 216, 216);
+    display: flex;
+    flex: 1;
+
 }
 .sweets img{
     height: 30px;
