@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 
@@ -27,7 +29,7 @@ navbar{
     align-items: center;
 }
 navbar img{
-    padding: 4px 0px;
+    padding-left: 4px;
     height: 30px;
 }
 
@@ -52,6 +54,7 @@ navbar span ul li {
 .cats{
     /* padding: 50px; */
     margin: 2px 0;
+    color:rgb(0, 0, 0);
     background-image: url('img/cats.jpg');
     height: 80vh;
     background-size: cover; 
@@ -68,7 +71,7 @@ navbar span ul li {
 
 .second-section{
     height: 50vh;
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
     justify-content: space-around;
 }
@@ -103,6 +106,8 @@ navbar span ul li {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .sweets{
@@ -110,12 +115,31 @@ navbar span ul li {
     flex-flow: row nowrap;
 } 
 
+.third-one{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: center;
+    text-align: center;
+
+}
+.third-one span{
+    color:rgb(106, 108, 109);
+    padding: 0 35rem;
+    text-align: center;
+}
+
 .swt1{
     margin: 4px;
-    padding: 20px;
+    padding: 60px;
+    border-radius: 10px;
     background-color: rgb(195, 216, 216);
     display: flex;
+    flex-flow: column wrap;
+    align-items: center;
     flex: 1;
+    line-height: 1.5;
 
 }
 .sweets img{
@@ -124,23 +148,41 @@ navbar span ul li {
 
 
 .fourth-section{
-    /* padding: 20px; */
+    padding: 20px;
     height: 60vh;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    align-self: center;
 }
 
-.fourth-section div{
-    padding: 20px;
+/* .fourth-section button{
+    padding: -4px;
+} */
+
+.fourth-section h2, div{
+    padding: 5px;
 }
 
 .fourth-section img{
+    border-radius: 5px;
     height: 60vh;
 }
 
-.fifth{
-    background-image:url('img/fifth-section.jpg');
+figure{
     height: 50vh;
+    background-image:url('img/fifth-section.jpg');
+    background-size: contain;
+    gap: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
 }
