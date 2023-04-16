@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -15,30 +16,30 @@ button{
 }
 
 navbar button{
-    padding: 5px 0px;
-    height: 30px;
     border: 2px rgb(12, 129, 196) solid;
     background-color: white;
     color: rgb(12, 129, 196);
 }
 
 navbar{
-    height: 30px;
+    margin: 5px 2rem;
+    height: 5vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 navbar img{
     padding-left: 4px;
     height: 30px;
 }
 
-navbar span{
+navbar article{
     display: flex;
 }
 
-navbar span ul {
-    padding: 20px;
+navbar article ul {
+    padding: 5px;
     display: flex;
     justify-content: space-evenly;
     gap: 4px;
@@ -46,47 +47,57 @@ navbar span ul {
     cursor: pointer;
 }
 
-navbar span ul li {
-    
+navbar article ul li {
+    padding: 1px 2rem;
     list-style:none;
 }
 
 .cats{
-    /* padding: 50px; */
     margin: 2px 0;
-    color:rgb(0, 0, 0);
+    color:rgb(59, 59, 61);
     background-image: url('img/cats.jpg');
     height: 80vh;
-    background-size: cover; 
+    background-size: cover;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
 
-.cats h1, h2, button{
+.bad-text{
+    background-color: rgba(245, 245, 245, 0.5);
+    border-radius: 10px;;
+}
+
+.cats button {
+    margin-top: 5px;
     padding: 10px;
+}
+.cats h1, article{
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
 }
 
 .second-section{
     height: 50vh;
+    margin: 5rem 0px;
     /* padding: 1rem; */
     display: flex;
     justify-content: space-around;
+    
 }
 .second-section img{
     border-radius: 3px;
 }
 
-
 .nested{
-    /* padding: 10px; */
     width:30rem;
     padding: 1rem;
     display: flex;
-    justify-content:space-around;  
-    flex-flow: column nowrap;
+    justify-content: space-around;
+    flex-flow: column wrap;
 }
 
 .facts{
@@ -104,7 +115,7 @@ navbar span ul li {
 .third-section{
     height: 70vh;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -112,14 +123,14 @@ navbar span ul li {
 
 .sweets{
     display: flex;
-    flex-flow: row nowrap;
-} 
+    flex-flow: row wrap;
+}
 
 .third-one{
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
-    /* align-items: center; */
+    flex-flow: column wrap;
     align-content: center;
     text-align: center;
 
@@ -140,26 +151,23 @@ navbar span ul li {
     align-items: center;
     flex: 1;
     line-height: 1.5;
-
 }
+
 .sweets img{
     height: 30px;
 }
-
 
 .fourth-section{
     padding: 20px;
     height: 60vh;
     display: flex;
+    gap: 5rem;
+    flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     align-self: center;
 }
-
-/* .fourth-section button{
-    padding: -4px;
-} */
 
 .fourth-section h2, div{
     padding: 5px;
